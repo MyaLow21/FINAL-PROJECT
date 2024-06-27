@@ -1,0 +1,75 @@
+                                  /*ITEMS*/
+/* Creates the backdrop, sets a margin and alligns all iext to the center */
+body {
+  text-align:center;
+margin-top: 20px;
+  background: #ADD8E6;
+}
+/*Sets the list to no padding and no style*/
+u1 {
+  list-style: none;
+  padding: 0;
+}
+
+                                  /*BUTTONS*/                                  
+/* The button is green as the text is white, deletes the border and changes the radius, adds padding,and the cursor becomes a pointer. */
+  button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/* When the button is hovered over it will change to a darker shade of green */
+  button:hover {
+    background: #218838;
+  }}
+
+
+                                 /*TO DO LIST*/
+/* Sets a placement for the items below*/
+#title {
+  margin-top:0px;
+}
+/*Translates the textbox "Add a new task..." up 20 pixels*/
+#todo-input {
+  transform: translate(0px,-20px);
+}
+/*Translates the button "Add" up 21 pixels and to the left 4 pixels*/
+#add {
+  transform: translate(4px,-21px);
+}
+/*Middle box : Background color=lilac and text color =lavender. Font-size=30px, width=400px, height=200px. All items  aligned to center with  250px margin to  left. Cyan border solid 5px with radius of 20% */
+#all {
+  background-color: #C8A2C8;
+  color:#E6E6FA;
+  font-size: 30px;
+  width:400px;
+  height:200px;
+  align-items: center;
+  margin-left: 250px;
+  border : #00FFFF solid 5px;
+  border-radius: 20%;
+}
+
+
+
+                                  /*LIST*/
+/*List has background cream, text color gold with margin of 5px, padding of 10px, width 300px. The display is flew with a justify content of space between and a border adius of 4px. All items are alligned in the center and has a transform that last 0.3s*/
+li {
+  background: #FFFDD0;
+  color:#FFD700;
+  margin: 5px 0;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  transition: transform 0.3s;
+}
+/*When list is hovered the certain box will scale 1.05 bigger*/
+li:hover {
+  transform: scale(1.05);
+}
