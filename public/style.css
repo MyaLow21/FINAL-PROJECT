@@ -73,3 +73,17 @@ li {
 li:hover {
   transform: scale(1.05);
 }
+
+/*Changes the border and color of the input*/
+input {
+  border: #000080 solid 2px;
+  padding: 10px;
+  outline: none;
+  background: #FFFF00;
+  font-size: 15px;
+  text-align: center;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
