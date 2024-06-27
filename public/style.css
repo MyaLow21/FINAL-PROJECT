@@ -87,3 +87,7 @@ input {
   align-items: center;
   border-radius: 10px;
 }
+
+#all {
+  transform: translate(400px,0px);
+}
